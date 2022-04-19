@@ -36,6 +36,7 @@ a {
     border: 1px solid rgb(223, 223, 223);
     position: relative;
 }
+/*
 .player::before {
     content: '';
     display: block;
@@ -47,7 +48,7 @@ a {
     top: 0;
     left: 87px;
 }
-
+*/
 .header {
     height: 40px;
     display: grid;
