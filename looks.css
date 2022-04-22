@@ -24,8 +24,8 @@ a {
 
 .player {
     width: 80%;
-    max-width: 325px;
-    min-height: 550px;
+    max-width: calc(100vw - 4rem);
+    min-height: calc(100vh - 4rem);
 	display: flex;
 	flex-flow: column nowrap;
     margin: 2rem auto;
