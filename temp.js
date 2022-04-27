@@ -1,7 +1,6 @@
-function loop_size(node){
-  const buff = [];
-  let ptr;
-  for (ptr = node; !buff.includes(ptr); ptr = ptr.next)
-    buff.push(ptr);
-  return buff.length - buff.indexOf(ptr);
+function zeros (n) {
+  let count = 0;
+  for (let i = 5; n / i >= 1; i *= 5)
+    count += n / i;
+  return count;
 }
