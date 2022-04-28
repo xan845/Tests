@@ -1,12 +1,14 @@
 function sumPairs(ints, s) {
-  let a;
+  let a, d = ints.length + 1;
   for (i = 0; i < ints.length; i++) {
+    const ds = s - ints[i];
     for (j = i + 1; j < ints.length; j++) {
-      if (ints[i] + ints[j] == s) {
-       if (!a || a[1]-a[0] > j-i) a = [i, j]
-
+      const ji = j-i;
+      if ((ds == ints[j]) &&(d > ji)) {
+         a = [ints[i], ints[j]];
+         d = ji;
       }
     }
   }
-  return a ? [ints[a[0]], ints[a[1]]] : a;
+  return a;
 }
