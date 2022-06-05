@@ -1,3 +1,5 @@
+## Checklist for API Trade
+
 - [ ] Stop Loss Condition
 - Range fixing Difference in Amount.
 - B>S = negative value
