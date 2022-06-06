@@ -1,7 +1,9 @@
 ## Checklist for API Trade
 
+- [ ] Create .env file to hide secrets
+- pass envs in process params with command no extra deps
 - [ ] Stop Loss Condition
-- Range fixing Difference in Amount.
+- Range fixing Difference in Amount
 - B>S = negative value
 - S>B = positive value
 - Follow until other condition meets
