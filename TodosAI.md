@@ -7,3 +7,5 @@
 - Also follow until avg condition meets
 - [ ] On Demand Average Calculation
 - Use math more, memory less & optimize
+- [ ] History collection Reverse Order Collection
+- From today till xxxx-xx-xx Date
